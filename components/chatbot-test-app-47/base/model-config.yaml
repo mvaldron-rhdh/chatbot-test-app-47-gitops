@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatbot-test-app-47-model-config
+data:
+  MODEL_ENDPOINT: "https://ollama-model-service-apicast-production.apps.domain.com"
+  MODEL_NAME: "gemma2-2b"
